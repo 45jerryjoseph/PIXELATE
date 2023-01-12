@@ -1,0 +1,61 @@
+.usersList{
+    flex:6;
+    // border: 1px solid blue
+    margin-left: 15vw;
+    min-height: 100vh;
+
+    .title{
+        height: 7.5vh;
+        background-color: rgba(255, 0, 0, 0.103);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 2.6rem;
+            margin-left: 20px;
+        }
+
+        .searchTab{
+            // border: 2px solid green;
+            padding: 0 20px;
+            margin: 0 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // margin: auto;
+            input{
+                height: 2.1rem;
+                width: 13vw;
+                padding: 0 5px;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 17px;
+                
+                
+            }
+
+        }
+   }
+   .table{
+    margin: 10px auto;
+    width: 83vw;
+    border-radius: 20px;
+    border: 1px  solid rgba(133, 116, 133, 0.103);
+    box-shadow: 3px 4px 2px rgba(126, 95, 95, 0.562);
+    // .cellWrapper{
+    //     display: flex;
+    //     align-items: center;
+
+    //     .image{
+    //         width: 32px;
+    //         height: 32px;
+    //         border-radius: 50%;
+    //         margin-right: 10px;
+    //         object-fit: cover;
+    //     }
+    // }
+
+   
+    }
+
+}

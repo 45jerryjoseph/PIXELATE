@@ -1,0 +1,109 @@
+.createFilm{
+    flex:6;
+    margin-left: 15vw;
+    min-height: 100vh;
+
+    .title{
+        height: 7.5vh;
+        background-color: rgba(255, 0, 0, 0.103);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 2.6rem;
+            margin-left: 20px;
+        }
+    }
+
+    .filmArea{
+        .largeImg{
+            // margin: 20px 30px;
+            margin: 20px auto;
+            width: 70vw;
+            height: 32vh;
+            border-radius: 20px;
+            border: 1px  solid rgba(133, 116, 133, 0.103);
+            box-shadow: 3px 4px 2px rgba(126, 95, 95, 0.562);
+            margin-bottom: 50px;
+            padding: 2px;
+            position: relative;
+            cursor: pointer;
+
+
+            input{
+                // border: 2px solid red;
+                width: 100%;
+                height: 100%;
+                color: black;
+                cursor: pointer;
+
+                // background-color: inherit;
+
+                
+            }
+            .downloadIcon{
+                position: absolute;
+                top: 40%;
+                left: 45%;
+                font-size: 4rem;
+                color: rgba(128, 128, 128, 0.26);
+            }
+        }
+        .secondDetails{
+            display: flex;
+            margin: 20px auto;
+            width: 70vw;
+            border-radius: 20px;
+            border: 1px  solid rgba(133, 116, 133, 0.103);
+            box-shadow: 3px 4px 2px rgba(126, 95, 95, 0.562);
+            margin-bottom: 50px;
+            gap: 40px;
+
+            // border: 1px solid blue;
+
+            .left{
+                // display: flex;
+                // border:  2px solid green;
+                padding: 10px;
+                flex: 4;
+                input{
+                    width: 100%;
+                    height: 3rem;
+                    font-size: 25px;
+                    padding: 0 10px;
+                    border-radius: 10px;
+                }
+                textarea{
+                    width: 100%;
+                    font-size: 25px;
+                    padding: 0 10px;
+                    border-radius: 10px;
+                    margin: 10px 0;
+                }
+            }
+            .right_smallImg{
+                flex: 1;
+                border: 1px solid rgba(128, 115, 115, 0.226);
+                position: relative;
+                border-radius: 20px;
+                padding: 10px;
+                margin: 10px;
+                cursor: pointer;
+               input{
+                    width: 100%;
+                    height: 100%;
+                    color: black;
+                    cursor: pointer;
+
+               }
+               .collectionsIcon{
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    font-size: 4rem;
+                    color: rgba(128, 128, 128, 0.26);
+               }
+            }
+        }
+    }
+}

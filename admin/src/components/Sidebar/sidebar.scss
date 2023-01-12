@@ -1,0 +1,129 @@
+.sidebar{
+    flex: 1;
+    border-right: 1px solid grey;
+    background-color: rgba(8, 3, 48, 0.349);
+    // background-color: rgba(255, 0, 0, 0.11);
+    height: 100vh;
+    position: fixed;
+    width: 15vw;
+
+    .top{
+        border-bottom:2px solid lightgrey ;
+        background-color: rgba(255, 0, 0, 0.247);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logoName{
+            flex: 1;
+            .logo{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                background-color: black;
+                width: fit-content;
+               
+                margin: 10px;
+                padding: 0 4px 0 4px;
+                border-radius: 20% 0 20% 0;
+                font-size: 2.5rem;
+
+            }
+        }
+        .dehaze{
+            flex: 1;
+            // border: 2px solid green;
+            display: flex;
+            justify-content: flex-end;
+            cursor: pointer;
+            // margin-left: 50px;
+            // width: 30px;
+            // height: 30px;
+            .dehazeIcon{
+                font-size: 3rem;
+                right: 0;
+                border: 1px solid rgba(136, 72, 72, 0.548);
+                box-shadow: 1px 2px 1px aqua;
+                border-radius: 50%;
+                padding: 2px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                // gap: 3rem;
+                margin: 1.5rem 2px;
+                // border: 1px solid red;
+                cursor: pointer;
+                 &:hover{
+                    background-color: #ece8ff3b;
+                    .icon{
+                        color: black;
+                    }
+                 }
+                .icon{
+                    font-size: 29px;
+                    color: #353438;
+                }
+                span{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #888;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .newTab{
+            border: 1px solid rgba(211, 211, 211, 0.336);
+            margin: 0 10px;
+            padding: 0 10px;
+            // display: none;
+           
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid lightgray;
+        background-color: rgba(255, 0, 0, 0.247);
+        // background-color: red;
+        height: 8vh;
+        margin-top: 79%;
+        
+        .adImage{
+            flex: 1;
+            .accountIcon{
+                font-size: 50px;
+            }
+        }
+        .adDetails{
+            flex: 1;
+            font-size: 20px;
+        }
+        .logout{
+            flex: 1;
+            border: none;
+            background-color: transparent;
+
+            .logoutIcon{
+                font-size: 42px;
+                padding: 2px;
+                background-color: #3534385d;
+                
+            }
+        }
+    }
+
+
+}

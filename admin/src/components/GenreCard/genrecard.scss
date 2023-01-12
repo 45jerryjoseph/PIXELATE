@@ -1,0 +1,21 @@
+.genrecard{
+    display: flex;
+    // border: 1px solid red;
+    width: 170px;
+    // height: 4.2rem;
+    .iconPoint{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon{
+            font-size: 3rem;
+            border: 1px solid rgba(255, 0, 0, 0.301);
+        }
+    }
+    .info{
+        flex: 2;
+        font-size: 22px;
+        border-left: 1px solid rgba(128, 128, 128, 0.137);
+    }
+}
