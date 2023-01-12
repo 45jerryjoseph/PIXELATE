@@ -1,0 +1,119 @@
+.profileAccount{
+    // border: 2px  solid blue;
+    z-index: 60;
+    position: absolute;
+    right: 0;
+    // border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.836);
+    top: 10vh;
+    min-width: 23vw;
+    min-height: 70vh;
+    border-radius: 50px 30px 30px 50px;
+    box-shadow: inset 5px 4px 7px rgb(187, 0, 0);
+    
+    .account{
+        height: 51vh;
+        // border: 5px solid purple;
+        h2{
+            padding: 2px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .frame{
+            // background-color: aliceblue;
+            // height: calc(45vh - 30px - 4.5vh - 1.3rem);
+            // background: rgba(10,10,10,.5);
+            background-color: inherit;
+            height: calc(45vh - 30px - 1.7vh );
+
+            margin: 5px  auto;
+            width: 17vw;
+        }
+        .edit{
+            background-color: rgba(255,0,0,0.6);
+            // margin-left: 25%;
+            // margin-top: 10px;
+            margin: 7px auto;
+            // padding: 0 1px;
+            display: flex;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 6vw;
+            height: 4.5vh;
+            cursor: pointer;
+            color: white;
+            transition: all ease 2s;
+            font-size: 20px;
+            
+                .editIcon{
+                    margin: 0 3px;
+                    font-size: 28px;
+
+                }
+                &:hover{
+                    transition: all ease 0.5s;
+                    color: rgb(187, 0, 0);
+                    background-color:rgb(8, 5, 5);
+                }
+        }
+    }
+    .lower{
+        // border: 2px solid red;
+        margin: 2px 0;
+        p{ 
+            cursor: pointer;
+            font-size: 28px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 1.5px 10px;
+            // background-color: red;
+            .pIcon{
+                font-size: 28px;
+                margin: 0 5px;
+            }
+            .arrowIcon{
+                font-size: 36px;
+                margin-left: 46%;
+            }
+        }
+
+        .signOut{
+            background-color: rgba(255,0,0,0.6);
+            // margin-left: 25%;
+            // margin-top: 10px;
+            margin: 9px auto;
+            // padding: 0 1px;
+            display: flex;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 6vw;
+            height: 4.5vh;
+            cursor: pointer;
+            color: white;
+            transition: all ease 2s;
+            font-size: 20px;
+
+                &:hover{
+                    transition: all ease 0.5s;
+                    color: rgb(187, 0, 0);
+                    background-color:rgb(8, 5, 5);
+                }
+        }
+
+    }
+    .conditions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1px 0;
+        // padding: 0 10px;
+        .left,.right{
+            margin: auto;
+            font-size: 24px;
+        }
+    }
+}

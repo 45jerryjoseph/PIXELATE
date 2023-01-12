@@ -1,0 +1,48 @@
+
+.List{
+    width: 100%;
+    margin-top: 10px;
+    .listTitle{
+        font-size: 3rem;
+        margin: 20px;
+        text-align: start;
+        display: flex;
+        gap: 8px;
+        background-color: rgba(112, 4, 4, 0.068);
+
+        .stater{
+            width: 15px;
+            background-color: rgb(77, 4, 4);
+        }
+    }
+    .wrapper{
+        position: relative;
+        .sliderArrow{
+            width: 50px;
+            height: 100%;
+            background-color: rgba(112, 4, 4, 0.295);
+            color: aqua;
+            position: absolute;
+            z-index: 60;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            cursor: pointer;
+            &.left{
+                left: 0;
+            }
+            &.right{
+                right: 0;
+            }
+        }
+        .container{
+            margin-left: 50px;
+            display: flex;
+            margin-top: 10px;
+            width: max-content;
+            transform: translateX(0px);
+            transition: all 1s ease;
+        }
+    }
+
+}

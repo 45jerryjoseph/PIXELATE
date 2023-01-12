@@ -1,0 +1,35 @@
+// .secDivider{
+//     height: 4rem;
+//     // border: 5px solid green;
+//     // background-image: linear-gradient(to bottom, rgb(158, 5, 5), rgb(16, 8, 88));
+//     // background-image: url("https://www.shutterstock.com/image-vector/dark-space-overflow-burgundy-blue-260nw-1699544770.jpg");
+    
+// }
+.secDivider{
+    font-family: "Share Tech Mono", monospace;
+    color: #fff;
+    font-size: 6vh;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      height: 0.19em;
+      min-width: 30vw;
+    }
+    
+    &::before {
+      background: linear-gradient(to right, rgba(46, 2, 2, 0.733), #fff);
+      margin-right: 4vh;
+    }
+    
+    &::after {
+      background: linear-gradient(to left, rgb(2, 3, 75), #fff);
+      margin-left: 4vh;
+    } 
+  }

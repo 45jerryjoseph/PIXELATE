@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Fasthand&family=Nunito:ital,wght@1,500&family=Rubik+Vinyl&family=Saira+Condensed:wght@900&display=swap');
+
+.featured{
+    height:90vh;
+    position: relative;
+    // border: 2px solid red;
+    .bigImage{
+        width: 100%;
+        height: 100%;
+        // border: 2px solid blue;
+        img{
+            height: inherit;
+            width: inherit;
+            object-fit: cover;
+            
+            
+        }
+
+    }
+    .title{
+        border: 2px dashed rgba(255, 217, 0, 0.795);
+        position: absolute;
+        left: 50px;
+        bottom: 100px;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin: auto;
+        border-radius: 60px 0 60px 0;
+        background-image: linear-gradient(to right, rgba(255,0,0,0.4), rgba(197, 186, 186, 0.7));
+
+        p{
+            font-family: 'Saira Condensed', sans-serif;
+            // font-family: 'Rubik Vinyl', cursive;
+            color: aqua;
+            // font-weight: bolder;
+            font-size: 6rem;
+            margin: 0 10px;
+
+        }
+
+    }
+}

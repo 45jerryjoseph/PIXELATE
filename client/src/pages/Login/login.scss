@@ -1,0 +1,119 @@
+.loginModal{
+    background-image: linear-gradient(to bottom left, rgba(80, 0, 0, 0), rgba(17, 0, 112, 0.979));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+    .login{
+        background-image: linear-gradient(to bottom left, rgba(80, 0, 0, 0), rgba(0, 0, 0, 0.466));
+
+        height: 70vh;
+        // border: 2px solid red;
+        width: 28vw;
+        box-shadow: 2px 10px 20px rgba(49, 0, 0, 0.76);
+        h2{
+            font-size: 2.5rem;
+            padding: 10px 0;
+
+        }
+        
+
+        .icons{
+            margin: 20px 30px;
+            // margin: auto;
+            // border: 2px solid red;
+            .buttonIcon{
+                // width: 19rem;
+                width: 4.3rem;
+                margin: 30px auto;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                cursor: pointer;
+                transition: all ease 3s;
+                .icon{
+                    font-size: 2.8rem;
+                    margin: 0 10px;
+                }
+                span{
+                    font-size: 23px;
+                    text-align: center;
+                    display: none;
+                }
+                &:hover{
+                    width: 19rem;
+                    transition: all ease-in 2s;
+                    span{
+                        display: inline;
+                    }
+                }
+            }
+        }
+        &:hover{
+            box-shadow: 9px 10px 40px rgba(49, 0, 0, 0.671);
+    
+        }
+    }
+    .emailModal , .passwordModal{
+        background-image: linear-gradient(to bottom left, rgba(80, 0, 0, 0), rgba(0, 0, 0, 0.466));
+        position: absolute;
+        height: 20%;
+        // border: 2px solid red;
+        width: 28vw;
+        box-shadow: 2px 10px 20px rgba(49, 0, 0, 0.76);
+        display: none;
+
+        p{
+            font-size: 2rem;
+            font-weight: bolder;
+            text-align: left;
+            margin-left: 20px;
+        }
+        label{
+            font-size: 32px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 20px;
+            color: azure;
+        }
+        input{
+            font-size: 17px;
+            padding: 0 9px;
+            margin: 0 10px;
+            height: 40px;
+            width: 92%;
+            border: none;
+            border-radius: 10px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 20px 20px;
+
+            .cancel,.next{
+                margin: 0 20px;
+                border-radius: 5px;
+                padding: 2px 10px;
+                background-color: inherit;
+                cursor: pointer;
+                p{
+                    // text-align: center;
+                    font-size: 22px;
+                    margin: auto;
+
+                }
+                &:hover{
+                    background-color: rgb(88, 0, 0);
+                    color: wheat;
+                }
+            }
+        }
+    }
+
+}

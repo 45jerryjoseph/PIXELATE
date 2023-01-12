@@ -1,0 +1,16 @@
+.dashboard{
+    background-color: black;
+    color: rgba(245, 222, 179, 0.582);
+    .bodyContainer{
+        .genre{
+            margin: 20px 0;
+            font-size: 2rem;
+        }
+        .quote{
+            margin: auto;
+            padding: 2rem 0;
+            border: 2px solid rgba(36, 0, 104, 0.349);
+            font-size: 2rem;
+        }
+    }
+}
